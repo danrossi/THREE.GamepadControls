@@ -11,8 +11,17 @@ Not sure if the Gamepad API is working? Check [Jumping the Hurdles with the Game
 
 For some reason, it's only working on Chrome. Firefox and Opera have support, but the Gamepads are not being listed. Safari doesn't have support. I haven't tried Edge yet.
 
+
+#Modifications
+
+This is a modified update of (https://github.com/spite/THREE.GamepadControls) to work with the [MozVR gamepad-plus api](https://github.com/MozVR/gamepad-plus). This api will polyfill events Chrome lacks including movement and button events.
+
+The gamepad-api build currently uses a forked version with external static methods for api support detection. (https://github.com/danrossi/gamepad-plus)
+
+
 #### License ####
 
 MIT licensed
 
 Copyright (C) 2015 Jaume Sanchez Elias, http://www.clicktorelease.com
+
